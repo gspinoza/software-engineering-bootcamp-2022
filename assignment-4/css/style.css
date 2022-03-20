@@ -1,0 +1,168 @@
+body {
+    /* background-color: rgb(255, 251, 1); */
+    /* background: linear-gradient(#e66465, #9198e5); */
+    background-image: linear-gradient(#9198e5, #f1d3ef);
+    /* height: 100%; */
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.products-container {
+    background-image: url(/assignment-4/img/gallerybg.jpg);
+    background-size: 100%;
+    /* background-color: rgba(255, 0, 0, 0.45); */
+    display: flex;
+    padding: 15%;
+    /* margin: auto; */
+    /* margin-top: 10%; */
+    margin-left:0;
+    margin-bottom: 10%;
+}
+
+.art-details {
+    margin: 0;
+    text-align: center;
+    /* line-height: 100px; */
+}
+.products-container img {
+    border: 3px solid black;
+}
+
+.products-container p {
+    font-weight: bold;
+}
+
+.product-1{
+    /* background-color: rgba(36, 211, 255, 0.45); */
+    /* border: 2px solid black; */
+    margin-right: 30px;
+    /* width: 250%; */
+    /* padding: 2px; */
+}
+
+.product-2{
+    /* border: 2px solid black; */
+    margin-right: 30px;
+    /* padding: 2px; */
+}
+
+.product-3{
+    /* border: 2px solid black; */
+    /* margin-right: 30px; */
+    /* padding: 2px; */
+}
+
+.button {
+    background-color: orange;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 5%;
+    /* margin:0; */
+}
+
+.button:hover {
+    background-color: rgb(231, 139, 34);
+}
+
+/* 
+.outside-Mymodal{
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+.Mymodal-container1, .Mymodal-container2, .Mymodal-container3 {
+    background-color: rgba(0, 0, 0, 0.45);
+   width: 100%;
+   /* height: 700px; */
+   opacity: 1;
+   position:fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   /* opacity: 0; */
+   visibility: hidden;
+   pointer-events: none;
+}
+
+.Mymodal-container1:target, .Mymodal-container2:target, .Mymodal-container3:target {
+   /* opacity: 1; */
+   visibility: visible;
+   pointer-events: all;
+}
+
+.Mymodal {
+    position: relative;
+    height: 170px;
+    width: 35%;
+    margin: auto;
+    margin-top: 7%;
+    background-color: white;
+}
+
+.Mymodal div {
+    margin: auto;
+    width: 100%;
+}
+
+.mytop{
+    background-color: black;
+    width: 100%;
+    /* height: 20%; */
+}
+
+.mybody{
+    background-color: white;
+    width: 100%;
+    /* height: 50%; */
+}
+
+.Mymodal a {
+    position: absolute;
+    right: 0px;
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+    /* border-radius: 15px; */
+    text-decoration: none;
+    color: black;
+}
+
+.Mymodal img {
+    padding: 25px;
+}
+
+.Mymodal p {
+    padding: 5%;
+}
+
+.Mymodal h3 {
+    padding-top: 2%;
+    text-align: center;
+}
+
+
+.byMe {
+    margin-top: 2%;
+    text-align: center;
+    font-weight: bold;
+    /* background-color: black; */
+    /* color: white; */
+    color: black;
+}
+
+
+/* Responsive layout - makes a one column-layout  */
+/* instead of a two-column layout */
+@media (max-width: 800px) {
+    .Mymodal p, .Mymodal h3 {
+      font-size: 12px;
+  }
+}
