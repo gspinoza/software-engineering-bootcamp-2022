@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-image: linear-gradient(#9198e5, #f1d3ef); height: 1300px;">
+    <h1 class="text-center text-dark">Assignment 6 by Gabriel Espinoza</h1>
+    <!-- PART A -->
+    <div class="container p-3 my-3 bg-dark text-white text-center" style="max-width: 750px;">
+        <h1>Part A</h1>
+        <div class="form-outline row m-3 align-self-center">
+            <div class="col-sm-6">
+                <h3>Nets Score</h3>
+                <label class="form-label" for="form1">score 1</label>
+                <input type="text" id="netsScore1" placeholder="Score 1" class="form-control" />
+                <label class="form-label" for="form1">score 2</label>
+                <input type="text" id="netsScore2" placeholder="Score 2" class="form-control" />
+                <label class="form-label" for="form1">score 3</label>
+                <input type="text" id="netsScore3" placeholder="Score 3" class="form-control" />
+            </div>
+
+            <div class="col-sm-6">
+                <h3>Nicks Score</h3>
+                <label class="form-label" for="form1">score 1</label>
+                <input type="text" id="nicksScore1" placeholder="Score 1" class="form-control" />
+                <label class="form-label" for="form1">score 2</label>
+                <input type="text" id="nicksScore2" placeholder="Score 2" class="form-control" />
+                <label class="form-label" for="form1">score 3</label>
+                <input type="text" id="nicksScore3" placeholder="Score 3" class="form-control" />
+            </div>
+
+            <div class="justify-content-center">
+                <button class="col-sm-6 btn btn-danger my-4 custom-search-botton" id="partA-button" type="submit">Who Won?</button>  
+                <h5 id="partA"></h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- PART B -->
+    <div class="container p-3 my-3 bg-primary text-white text-center" style="max-width: 750px;">
+        <h1>Part B</h1>
+        <div class="form-outline row m-3 align-self-center">
+            <div class="col-sm-12">
+                <h3>Tip Calculator</h3>
+                <label class="form-label" for="form1">Bill</label>
+                <input type="text" id="bill" placeholder="enter bill value" class="form-control" />
+                <button class="col-sm-6 btn btn-danger my-4 custom-search-botton" id="partB-button" type="submit">Calculate Tip</button>
+                <h5 id="partB"></h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- PART C -->
+    <div class="container p-3 my-3 bg-warning text-dark text-center" style="max-width: 750px;">
+        <h1>Part C</h1>
+        <div class="form-outline row m-3 align-self-center">
+            <div class="col-sm-6">
+                <h3>Celsius To Fahrenheit</h3>
+                <label class="form-label" for="form1">Celsius</label>
+                <input type="text" id="celsius" placeholder="enter celsius temperature" class="form-control" />
+                <button class="col-sm-6 btn btn-danger my-4 custom-search-botton" id="partC1-button" type="submit">Convert</button>
+                <h5 id="partC1"></h5>
+            </div>
+
+            <div class="col-sm-6">
+                <h3>Fahrenheit To Celsius</h3>
+                <label class="form-label" for="form1">Fahrenheit</label>
+                <input type="text" id="fahrenheit" placeholder="enter fahrenheit temperature" class="form-control" />
+                <button class="col-sm-6 btn btn-danger my-4 custom-search-botton" id="partC2-button" type="submit">Convert</button>
+                <h5 id="partC2"></h5>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
