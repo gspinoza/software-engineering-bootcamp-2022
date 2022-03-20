@@ -1,0 +1,263 @@
+body {
+    /* background-color: rgb(15, 197, 221); */
+    background-image: linear-gradient(#1dd8c73b, #00ff95, #09b4bd);
+    width: 100%;
+    margin: 0em;
+}
+
+/* Top Section */
+
+.section-1 {
+  background-color: white;
+  width: auto;
+  display:flex;
+  border: 2px solid  black;
+  padding: 5px;
+}
+
+/* title */
+.section-1 > h2 {
+    /*  top left bottom right*/
+    margin: auto;
+    display: inline-block;
+}
+/* logo image */
+.section-1 > img {
+  margin-left: 1%;
+}
+/* iceland image */
+.section-1 > img:nth-child(3) {
+  margin-right: 1%;
+  border-radius: 5px;
+}
+
+/* section 2 */
+#intro {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.container {
+  background-color: #00e7ff;
+  border: 2px solid rgb(46, 158, 250);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#subtitle {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.section-title {
+ color: #021183;
+}
+
+.section-subtitle {
+  font-style: normal;
+  font-weight: bold;
+ }
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  /* background-color: rgb(226, 25, 142); */
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.flex-item-left {
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+}
+
+figure {
+  margin: 0;
+}
+
+/* .flex-item-right > p {
+  padding: 50px;
+} */
+
+.flex-item-left > p {
+  margin-left:5%; 
+  margin-top: 7%;
+}
+
+hr {
+  width:95%;
+}
+
+.section-container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#mytable {
+  border: 2px solid black;
+}
+
+#col1 {
+  background-color: lightskyblue;
+}
+
+#col2 {
+  background-color: lightpink;
+}
+
+
+.section-3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.section-3 > div {
+  margin-left: 40px;
+}
+
+.section-3 > div > div {
+  display: flex; 
+  align-items: center;
+}
+
+.p5 {
+  display:inline-block;
+  margin-left: 20px;
+}
+
+
+/* final section */
+
+footer {
+  width: auto;
+  background-color: black; 
+  color: white;
+  margin-top: 4em;
+  text-align: center;
+  padding-bottom: 1px;
+  /* padding-top: 10px; */
+}
+
+/* Navigation Bar */
+
+.navbar {
+  width: auto;
+  text-align: center;
+  height: 60px;
+  background-color: black;
+  padding-top: 10px;
+}
+
+.navbar > ul {
+  padding: 20px; 
+  margin-top: 0;
+}
+
+.navbar > ul > li {
+  display: inline;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+.navbar > ul > li > a {
+  color: white;
+  padding: 21px;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.navbar > ul > li:last-child{
+  border: none;
+}
+
+a:hover {
+  color: white; 
+  background-color: rgb(0, 204, 255);
+}
+
+button:hover{
+  background-color: rgb(138, 77, 3);
+}
+
+/* Nother lights page */
+
+.flex-container2 {
+  /* background-color: rgb(226, 25, 142); */
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.flex-item-left2 {
+  padding: 10px;
+  flex: 32.3%;
+  margin-right: 1%;
+  border: 3px solid black;
+}
+
+.flex-item-middle {
+  border: 3px solid black;
+  padding: 10px;
+  margin-right: 1%;
+  flex: 32.3%;
+  align-items: center;
+}
+
+.middle-div-item {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: #2c83cf;
+}
+
+.flex-item-right2 {
+  border: 3px solid black;
+  padding: 10px;
+  flex: 32.3%;
+}
+
+.paragraph-section {
+  margin: 30px;
+}
+
+/* contact page */
+
+
+.contact-section {
+  margin-left: 25%;
+  margin-right: 30%;
+}
+
+
+
+
+/* Responsive layout - makes a one column-layout  */
+/* instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-left, .flex-item-right {
+    flex: 100%;
+  }
+
+  .navbar > ul > li > a {
+    font-size: 15px;
+    padding: 13px;
+  }
+
+  .flex-item-left2, .flex-item-right2, .flex-item-middle {
+    flex: 100%;
+    margin-right: 0;
+    margin-top: 2%;
+  }
+}

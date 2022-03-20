@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="title-container">
+        <h1>GUESS MY NUMBER</h1>
+        <h3>Guess the number between 1 and 100</h3>
+    </div>
+
+    <div class="main-container">
+        <div class="header-container">
+            <div class="score-container">
+                <h3 id="score">Score: 10</h3>
+                <h3 id="highscore">High Score: 0</h3>
+            </div>
+            <div class="reset-container">
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="gameplay" id="gameplay">
+                <!-- <img width="15%" src="https://www.shareicon.net/data/2016/05/24/770117_people_512x512.png" alt=""> -->
+                <img width="15%" src="img/player.png" alt="">
+                <input type="text" id="text-field" placeholder="Enter your guess">
+                <button id="check-guess">Check</button>
+                <label for="" id="info-label">Enter a number!</label>
+            </div>
+            <div class="gamewin" id="gamewin">
+                <img width="15%" src="img/win.png" alt="">
+                <h1>Congratulations!</h1>
+                <h2 id="correcText">your guess was correct. # is my secret number.</h2>
+                <h1 id="scoretext">your score : #</h1>
+                <h2 id="bestText">best: #</h2>
+                <button id="play-again">Play Again</button>
+            </div>
+            <div class="gameover" id="gameover">
+                <img width="15%" src="img/lose.png" alt="">
+                <h1>Unfortunately You Lost the Game</h1>
+                <h3>Don't give up and Try Again. You can win next time.</h3>
+                <h3 id="answerText">My number was: #</h3>
+                <!-- <h3>best: #</h3> -->
+                <button id="try-again">Try Again</button>
+            </div>
+
+        </div>
+        <div class="footer-container">
+            <div class="list-container">
+                <h3>Guess History</h3>
+                <ul id="guess-list">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="byMe">
+        <p>Project 3 By Gabriel Espinoza</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

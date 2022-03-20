@@ -1,0 +1,214 @@
+
+body {
+    background-image: linear-gradient(#9198e5, #f1d3ef);
+    background-color: lightskyblue;
+    color: white;
+    height: 1300px;
+}
+
+
+.title-container{
+    text-align: center;
+    font-weight: bolder;
+    /* color: rgb(31, 21, 77); */
+}
+
+.title-container h1 {
+    font-size: 25px;
+    text-shadow: 2px 2px #000000;
+}
+
+.title-container h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(31, 21, 77);
+}
+
+.main-container {
+    margin: auto;
+    width: 70%;
+    /* height: 100%; */
+    /* background-color: rgb(209, 224, 227);    */
+    background-color:  rgb(209, 227, 224);
+
+    border-radius: 10px;
+}
+
+.header-container {
+    /* background-color: rgba(240, 51, 208, 0.45); */
+}
+
+.body-container{
+    background-color: rgba(255, 247, 137, 0.45);
+    border-radius: 15px;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.gameplay, .gamewin, .gameover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.gameplay {
+    z-index: 3;
+    background-color: rgba(14, 75, 104);
+    
+}
+
+.gamewin {
+    z-index: 2;
+    background-color: rgb(4, 128, 25);
+}
+
+.gamewin > h1 {
+    color: gold;
+}
+
+.gameover {
+    z-index: 1;
+    background-color: #6c0d0d;
+}
+
+.gameover h1 {
+    font-size: 30px;
+    color: rgb(202, 105, 105);
+    font-weight: bolder;
+}
+
+#answerText {
+    font-size: 25px;
+    color: lightskyblue;
+}
+
+.gameplay button, .gameplay img, .gameplay label, .gameplay input {
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.gameplay label {
+    color: white;
+    font-size: 30px;
+}
+
+.gameplay input {
+    font-size: large;
+}
+
+#textNumber {
+    font-weight: bold;
+    font-size: 30px;
+    color: gold;
+}
+
+.gameplay button {
+    background-color: rgb(44, 190, 30);
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 1.5px 1.5px 5px black;
+}
+
+.gamewin button, .gameover button {
+    background-color: rgb(42, 172, 204);
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+    box-shadow: 1.5px 1.5px 5px black;
+}
+
+
+.score-container, .reset-container {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.score-container {
+    background-color: rgb(13, 147, 209);
+    margin-left: 3%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: black;
+    /* float:left; */
+}
+
+.reset-container {
+    /* background-color: rgb(216, 170, 247); */
+    margin-right: 3%;
+    float:right;
+    margin-top: 30px;
+}
+
+.reset-container button {
+    background-color: rgb(247, 211, 51);
+    border-radius: 15px;
+    font-size: 25px;
+    color: black;
+    box-shadow: 1.5px 1.5px 5px black;
+}
+
+.footer-container {
+    width: 50%;
+    margin: auto;
+    /* height: 100px; */
+    /* height: 100%; */
+    border-radius: 10%;
+    text-align: center;
+    /* background-color:lightslategray; */
+    padding-bottom: 1%;
+}
+
+.list-container {
+    background-color: rgb(20, 120, 125);;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+    padding-bottom: 10px;
+    color: gold;
+    font-size: 20px;
+}
+
+.footer-container ul{
+    padding: 0;
+    list-style-type: none;
+    /* text-align:center; */
+    /* align-items: center; */
+    /* display: inline-block; */
+}
+
+.byMe {
+    margin-top: 2%;
+    text-align: center;
+    font-weight: bold;
+    /* background-color: black; */
+    /* color: white; */
+    color: black;
+}
+
+
+/* .footer-container ul li p {
+    list-style-type: none;
+    text-align:center;
+    align-content:center;
+    align-items: center;    display: inline-block;
+
+} */
+
+
+.textNumber {
+    font-weight: bolder;
+    font-size: 100px;
+}
